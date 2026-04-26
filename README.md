@@ -24,7 +24,7 @@ This project is a bidding application created by me. The main feature of the app
 
 <img width="1828" height="956" alt="Screenshot from 2026-04-26 22-38-14" src="https://github.com/user-attachments/assets/dae7c8f9-2734-47f3-9c55-12bd6bfe535b" />
 
-##Note
+## Note
 
 The logos were made by me, and the edited icons were created using Affinity.
 
