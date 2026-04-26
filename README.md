@@ -1,4 +1,4 @@
-#Bid App
+# Bid App
 
 ## About
 This project is a bidding application created by me. The main feature of the app is allowing users to place bids on current items within a time limit. Once the time limit ends, the last bidder wins.
