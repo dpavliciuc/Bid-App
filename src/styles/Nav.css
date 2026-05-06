@@ -26,9 +26,9 @@
         @apply flex justify-between w-full px-5;
     }
     .logo {
-        @apply h-10 w-auto;
+        @apply h-7 w-auto;
     }
     .burger {
-        @apply block h-10 w-auto;
+        @apply block h-7 w-auto;
     }
   }

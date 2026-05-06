@@ -9,7 +9,6 @@ import Description from "./components/Description";
 import UserBids from "./components/UserBids";
 import About from "./components/About";
 import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
 import CardProvider from "./providers/CardProvider";
 
 
@@ -80,7 +79,6 @@ function App() {
       <div className="footer-wrapper">
         <Footer />
       </div>
-        <ScrollToTop />
     </div>
     </div>
   </CardProvider>
