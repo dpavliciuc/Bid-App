@@ -42,6 +42,7 @@ export default function BidSection({ showNotification, advanceItem }) {
 
     placeBid(you.id, bidValue, true);
     setBidAmount("");
+    setRoundKey((key) => key + 1);
   };
 
   const handleRoundEnd = () => {
@@ -78,6 +79,7 @@ export default function BidSection({ showNotification, advanceItem }) {
         const randomBidder = availableBidders[Math.floor(Math.random() * availableBidders.length)];
         const nextAmount = currentHighest + Math.ceil(Math.random() * 20);
         placeBid(randomBidder.id, nextAmount);
+        setRoundKey((key) => key + 1);
       }
     }, 2000);
 
