@@ -1,7 +1,7 @@
 # Bid App
 
 ## About
-This project is a bidding application created by me. The main feature of the app is allowing users to place bids on current items within a time limit. Once the time limit ends, the last bidder wins.
+This project is a bidding application created by me. The main feature of the app is allowing users to place bids on current items within a time limit that resets on new bid. Once the time limit ends, the last bidder wins.
 
 ## Main Features
 - Built with Vite + React
@@ -10,9 +10,8 @@ This project is a bidding application created by me. The main feature of the app
 - Styled with Tailwind CSS
 - Mobile support using Tailwind responsive utilities
 - Navigation with React Router DOM
-- Scroll-to-top button for mobile devices
 - JSON used for storing user data and configurations
-- AI bidder with a 20% chance of bidding every 2 seconds (modifiable)
+- AI bidder with a 20% chance of bidding every 2 seconds
 - Item swap after each bidding round ends
 - Notifications whenever a user places a bid or wins an item
 
